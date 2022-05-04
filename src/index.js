@@ -21,7 +21,6 @@ function setAttributes(el, attrs) {
 function imageMode(mode) {
   images.forEach(({ id, name }) => {
     const image = document.getElementById(id);
-    console.log(image);
     if (mode === '_dark') {
       setAttributes(image, {
         src: `${imageFolder}${name}_dark.svg`,
