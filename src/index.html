@@ -12,9 +12,63 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="css/styles.css" />
-		<title>Template</title>
+		<link rel="stylesheet" href="css/background.css" />
+		<title>Dark Mode</title>
 	</head>
 	<body>
+		<header id="header">
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#illustrations">Illustrations</a></li>
+				</ul>
+			</nav>
+			<div class="theme-switch-wrapper">
+				<span id="toggle-icon">
+					<span class="toggle-text"> Light Mode </span>
+					<i class="fa-solid fa-sun"></i>
+				</span>
+				<label class="theme-switch">
+					<input type="checkbox" />
+					<div class="slider"></div>
+				</label>
+			</div>
+		</header>
+		<section id="home">
+			<div class="title-group">
+				<h1>Lead Response Producer</h1>
+				<h2>District</h2>
+			</div>
+		</section>
+		<section id="illustrations">
+			<h1>Ilustrations</h1>
+			<div class="illustrations-container">
+				<div class="image-container">
+					<h2>Portfolio Update</h2>
+					<img
+						src="./assets/svg/undraw_portfolio_update_re_jqnp.svg"
+						alt="Portfolio Update"
+						id="image1"
+					/>
+				</div>
+				<div class="image-container">
+					<h2>Building Websites</h2>
+					<img
+						src="./assets/svg/undraw_building_websites_i78t.svg"
+						alt="Building Websites"
+						id="image2"
+					/>
+				</div>
+				<div class="image-container">
+					<h2>Site Content</h2>
+					<img
+						src="./assets/svg/undraw_site_content_re_4ctl.svg"
+						alt="Site Content"
+						id="image3"
+					/>
+				</div>
+			</div>
+		</section>
 		<script src="index.js"></script>
 	</body>
 </html>
